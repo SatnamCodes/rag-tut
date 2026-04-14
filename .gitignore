@@ -1,10 +1,28 @@
-# Python-generated files
+# Python cache
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / system files
+.DS_Store
+Thumbs.db
 
 # Virtual environments
-.venv
+venv/
+env/
+.venv/
+
+# Logs / temp files
+*.log
+*.tmp
+
+# Local config / secrets
+.env
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
